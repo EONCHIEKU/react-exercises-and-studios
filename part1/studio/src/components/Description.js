@@ -12,7 +12,7 @@ function RecipeAuthor(){
 
     return(
         <div className = {styles.recipeAuthorBlock}>
-      <img src={authorPhoto} alt = "Monique Volz" className={styles.imageUpdates} />
+      <img src={authorPhoto} alt = "Monique Volz" className={styles.imageUpdates} width="40%" />
       <div>
          <h3>{authorName}</h3>
          <a href={authorLink}>Ambitious Kitchen</a> 
